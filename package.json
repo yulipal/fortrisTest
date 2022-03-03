@@ -1,0 +1,39 @@
+{
+  "name": "fortristechreview",
+  "version": "1.0.0",
+  "description": "Technical test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulipal/fortrisTechReview.git"
+  },
+  "author": "Julia Palacios Bernáldez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yulipal/fortrisTechReview/issues"
+  },
+  "homepage": "https://github.com/yulipal/fortrisTechReview#readme",
+  "devDependencies": {
+    "cypress": "^9.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-localstorage-commands": "^1.7.0",
+    "cypress-xpath": "^1.6.2",
+    "start-server-and-test": "^1.14.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6"
+  }
+}
