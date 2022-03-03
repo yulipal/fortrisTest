@@ -1,1 +1,8 @@
-{}
+{
+    "baseUrl": "http://localhost:4200/#/",
+    "testFiles": "**/*.feature",
+    "env": {
+      "baseAPI": "http://localhost:3333/api/",
+      "baseFRONT": "http://localhost:4200/#/"
+    }
+}
